@@ -5,7 +5,7 @@
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout custom.key -out custom.crt
 
 
-# Add new php8 extension
+# Add new php74 extension
 
 
 docker exec -it php74-fpm /bin/sh
